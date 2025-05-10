@@ -1,6 +1,7 @@
 const express = require('express');
 const { listActivities } = require('../controllers/activityController');
 const router = express.Router();
+const { check } = require('express-validator');
 
 // const {Activity }= require('../models/activity');
 
